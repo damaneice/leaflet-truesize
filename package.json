@@ -41,6 +41,7 @@
   },
   "files": [
     "dist",
-    "src"
+    "src",
+    "rollup.config.js"
   ]
 }
