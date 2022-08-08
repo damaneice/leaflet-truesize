@@ -13,8 +13,7 @@
     "dev": "rollup -c -w",
     "clean": "rimraf dist/",
     "prebuild": "npm run clean",
-    "build": "NODE_ENV=production rollup -c",
-    "postinstall": "npm run build"
+    "build": "NODE_ENV=production rollup -c"
   },
   "author": "webkid",
   "license": "MIT",
@@ -22,17 +21,17 @@
     "leaflet": "^1.6.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.8.0",
-    "@babel/preset-env": "^7.8.2",
-    "babel-eslint": "^10.0.3",
-    "eslint": "^6.8.0",
-    "rollup": "^1.29.0",
-    "rollup-plugin-babel": "^4.3.3",
+    "@babel/core": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.21.0",
+    "rollup": "^2.77.2",
+    "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-html": "^0.2.1",
-    "rollup-plugin-livereload": "^1.0.4",
+    "rollup-plugin-livereload": "^2.0.5",
     "rollup-plugin-node-resolve": "^5.2.0",
-    "rollup-plugin-serve": "^1.0.1"
+    "rollup-plugin-serve": "^2.0.0"
   },
   "dependencies": {
     "@turf/bearing": "^6.0.1",
