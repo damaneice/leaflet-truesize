@@ -13,7 +13,8 @@
     "dev": "rollup -c -w",
     "clean": "rimraf dist/",
     "prebuild": "npm run clean",
-    "build": "NODE_ENV=production rollup -c"
+    "build": "NODE_ENV=production rollup -c",
+    "prepublish": "npm run build"
   },
   "author": "webkid",
   "license": "MIT",
